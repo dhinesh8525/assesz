@@ -7,7 +7,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="light">
   <ion-grid>
     <ion-row>
       <ion-col size="4">
@@ -18,15 +18,17 @@
         </ion-card>
       </ion-col>
       <ion-col>
-        <ion-item>
-          <ion-row size="12"><ion-col size="3">ID</ion-col><ion-col>: {{productsDeatilsobj?.id}}</ion-col></ion-row>
-        </ion-item>
-        <ion-item>
-          <ion-row size="12"><ion-col size="3">NAME</ion-col><ion-col>: {{productsDeatilsobj?.name}}</ion-col></ion-row>
-        </ion-item>
-        <ion-item>
-          <ion-row size="12"><ion-col size="3">DESCRIPTION</ion-col><ion-col>: {{productsDeatilsobj?.description}}</ion-col></ion-row>
-        </ion-item>
+        <ion-card>
+          <ion-item>
+            <ion-row size="12"><ion-col size="3">ID</ion-col><ion-col>: {{productsDeatilsobj?.id}}</ion-col></ion-row>
+          </ion-item>
+          <ion-item>
+            <ion-row size="12"><ion-col size="3">NAME</ion-col><ion-col>: {{productsDeatilsobj?.name}}</ion-col></ion-row>
+          </ion-item>
+          <ion-item>
+            <ion-row size="12"><ion-col size="3">DESCRIPTION</ion-col><ion-col>: {{productsDeatilsobj?.description}}</ion-col></ion-row>
+          </ion-item>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
